@@ -1,46 +1,65 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>VetIntervals Privacy Policy</title>
+<title>VetIntervals Privacy Policy & Disclaimer</title>
 
 <style>
+:root {
+    --primary: #1f4e79;
+    --text: #333333;
+    --background: #f5f7fa;
+    --card: #ffffff;
+    --border: #e5e7eb;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 900px;
-    margin: 40px auto;
+    margin: 0;
     padding: 20px;
+    background: var(--background);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
     line-height: 1.7;
-    color: #333;
-    background: #f5f7fa;
+    color: var(--text);
 }
 
 .container {
-    background: white;
+    max-width: 900px;
+    margin: 40px auto;
+    background: var(--card);
     padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
 }
 
 h1 {
-    color: #1f4e79;
-    border-bottom: 2px solid #e5e5e5;
-    padding-bottom: 10px;
+    color: var(--primary);
+    margin-top: 0;
+    border-bottom: 3px solid var(--border);
+    padding-bottom: 15px;
 }
 
 h2 {
-    color: #1f4e79;
-    margin-top: 30px;
+    color: var(--primary);
+    margin-top: 35px;
 }
 
-p, li {
-    font-size: 16px;
+h3 {
+    color: var(--primary);
+    margin-top: 25px;
+}
+
+p {
+    margin: 12px 0;
 }
 
 ul {
-    padding-left: 20px;
+    margin: 10px 0 20px 20px;
+}
+
+li {
+    margin-bottom: 6px;
 }
 
 .updated {
@@ -48,26 +67,64 @@ ul {
     font-style: italic;
 }
 
-.contact {
+.notice {
     background: #eef5ff;
+    border-left: 5px solid var(--primary);
+    padding: 15px;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+
+.contact {
+    background: #f8fafc;
+    border: 1px solid var(--border);
     padding: 15px;
     border-radius: 8px;
 }
+
+hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 40px 0;
+}
+
+strong {
+    color: #222;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 25px;
+        margin: 10px auto;
+    }
+
+    body {
+        padding: 10px;
+    }
+}
 </style>
 </head>
-
 <body>
+
 <div class="container">
 
 <h1>VetIntervals Privacy Policy & Disclaimer</h1>
 
-<p class="updated">Last Updated: June 2026</p>
+<p class="updated"><strong>Last Updated:</strong> June 2026</p>
 
-<h2>Privacy Policy</h2>
+<hr>
 
-<p>VetIntervals is designed to operate as a local veterinary interval and date reference tool.</p>
+<h1>Privacy Policy</h1>
+
+<h2>Overview</h2>
+
+<p>
+VetIntervals is designed to operate as a local veterinary interval and date reference tool.
+</p>
 
 <h2>Information Stored</h2>
+
+<p>You may choose to enter information such as:</p>
 
 <ul>
 <li>Animal names</li>
@@ -79,35 +136,131 @@ ul {
 <li>Saved calculations</li>
 </ul>
 
-<p>This information is stored locally on your device to provide app functionality.</p>
+<p>
+This information is stored locally on your device to provide app functionality.
+</p>
 
 <h2>Data Collection</h2>
 
-<p>VetIntervals does not require user registration or account creation.</p>
+<p>
+VetIntervals does not require account creation or user registration.
+</p>
 
-<p>VetIntervals does not intentionally collect, transmit, store, or process your entered data on servers operated by WebVet Ltd.</p>
+<p>
+VetIntervals does not intentionally collect, transmit, store, or process your entered data on servers operated by WebVet Ltd.
+</p>
 
 <h2>Data Sharing</h2>
 
-<p>VetIntervals does not sell personal information.</p>
+<p>
+VetIntervals does not sell personal information.
+</p>
 
-<p>Information entered into the app is not intentionally shared with the app developer or third parties.</p>
+<p>
+Information entered into the app is not intentionally shared with the app developer or third parties.
+</p>
 
-<h2>Disclaimer</h2>
+<h2>Calendar Access</h2>
 
-<p><strong>VetIntervals is provided as an informational and assistive tool only.</strong></p>
+<p>
+If you choose to create reminders or calendar events, VetIntervals may request permission to access your device calendar.
+</p>
 
-<p>The app does not provide veterinary, medical, legal, regulatory, or professional advice.</p>
+<p>
+Any calendar entries created by the app are managed by your device operating system and your chosen calendar provider.
+</p>
 
-<p>Use of the app does not guarantee vaccination compliance, competition eligibility, regulatory compliance, veterinary compliance, or legal compliance.</p>
+<h2>Permissions</h2>
 
-<p>Users are responsible for independently verifying all requirements with the relevant veterinary surgeon, governing body, competition organiser, regulator, or other appropriate authority.</p>
+<p>
+VetIntervals may request access to device features such as the calendar where required to create reminders or calendar entries.
+</p>
+
+<p>
+You may grant or revoke permissions at any time through your device settings.
+</p>
+
+<h2>Device Storage</h2>
+
+<p>
+Saved calculations, settings, and acceptance of this policy may be stored locally on your device.
+</p>
+
+<p>
+Deleting the app, clearing app data, or resetting your device may permanently remove this information.
+</p>
+
+<h2>Data Retention</h2>
+
+<p>
+Information entered into VetIntervals remains on your device until you delete it, clear app data, or uninstall the application.
+</p>
+
+<p>
+WebVet Ltd does not maintain a server-side copy of your entered data and cannot recover information deleted from your device.
+</p>
+
+<h2>Children's Privacy</h2>
+
+<p>
+VetIntervals is not intended for use by children under 13 years of age.
+</p>
+
+<h2>Changes to This Policy</h2>
+
+<p>
+This policy may be updated from time to time. Continued use of the app after updates constitutes acceptance of the revised policy.
+</p>
+
+<h2>Contact</h2>
 
 <div class="contact">
-<h2>Contact</h2>
-<p>admin@webvetltd.co.uk</p>
+<strong>Email:</strong> admin@webvetltd.co.uk
 </div>
 
+<hr>
+
+<h1>Disclaimer</h1>
+
+<div class="notice">
+<strong>VetIntervals is provided as an informational and assistive tool only.</strong>
 </div>
+
+<p>
+The app is intended to help users review and track veterinary vaccination, treatment, competition, and other interval-related dates. It does not provide veterinary, medical, legal, regulatory, or professional advice.
+</p>
+
+<p>
+While reasonable efforts are made to ensure calculations and information are accurate, WebVet Ltd makes no representation, warranty, or guarantee regarding the accuracy, completeness, reliability, or suitability of information provided by the app.
+</p>
+
+<p>
+Information provided by VetIntervals should be used as guidance only and must not be relied upon as the sole basis for veterinary, competition, regulatory, legal, or compliance decisions.
+</p>
+
+<h2>VetIntervals Does Not Guarantee</h2>
+
+<ul>
+<li>Vaccination compliance</li>
+<li>Competition eligibility</li>
+<li>Regulatory compliance</li>
+<li>Veterinary compliance</li>
+<li>Legal compliance</li>
+<li>Suitability for any specific purpose</li>
+</ul>
+
+<p>
+Users are solely responsible for independently verifying all dates, intervals, requirements, regulations, recommendations, and eligibility criteria with the relevant veterinary surgeon, governing body, competition organiser, manufacturer, regulator, passport issuing organisation, or other appropriate authority.
+</p>
+
+<h2>Limitation of Liability</h2>
+
+<p>
+To the fullest extent permitted by law, WebVet Ltd accepts no liability for any loss, damage, cost, claim, or consequence arising from the use of, or reliance upon, information provided by VetIntervals.
+</p>
+
+</div>
+
 </body>
 </html>
+```
